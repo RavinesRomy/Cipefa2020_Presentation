@@ -1,0 +1,442 @@
+/*style for presentation*/
+
+/* Import google fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Condensed&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&family=Loved+by+the+King&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap');
+
+
+/* Slide background */
+
+
+slides > slide {
+  background: linear-gradient(#ffffff, #ffffff 85%, #ffffff);
+  background-color: white;
+  }
+
+slides > slide {
+  font-family: "Encode Sans Semi Condensed", sans-serif;
+  color: #41541e;
+}
+
+/* Headers */
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  color: #41541e;
+  font-weight: 200;
+  font-size: 70px;
+
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  color: #41541e;
+  font-weight: 200;
+  font-size: 50px;
+}
+
+h3 {
+  font-family: 'Encode Sans Semi Condensed', sans-serif;
+  color: #41541e;
+  font-weight: 100;
+  font-size: 30px;
+}
+
+/* Ordered lists */
+
+li {
+  font-family: "Encode Sans Semi Condensed", sans-serif;
+  line-height: 102%;
+  
+}
+
+
+section {
+  width: 100%;
+  text-align:left;
+
+}
+
+/* Remove Border, Margins and Padding from iframe */
+iframe {
+  border: none;
+  margin: auto;
+  padding: 0;
+  display:block;
+  
+}
+
+
+.columnas {
+    width:100%;
+    text-align:center;
+}
+
+.left13 {
+    float:left;
+    width:33%;
+}
+
+.center13 {
+    display: inline-block;
+    margin:0 auto;
+    width:33%;
+}
+
+.right13 {
+    float:right;
+    width:33%;
+}
+
+.right3 {
+    float:right;
+    width:30%;
+}
+
+.right4 {
+    float:right;
+    width:40%;
+}
+
+
+.right5 {
+    float:right;
+    width:50%;
+}
+
+.right6 {
+    float:right;
+    width:60%;
+}
+
+.right7 {
+    float:right;
+    width:70%;
+}
+
+
+.left2 {
+    float:left;
+    width:20%;
+}
+
+.left3 {
+    float:left;
+    width:30%;
+}
+
+
+.left35 {
+    float:left;
+    width:35%;
+}
+
+.left4 {
+    float:left;
+    width:40%;
+}
+
+
+.left5 {
+    float:left;
+    width:50%;
+}
+
+.left6 {
+    float:left;
+    width:60%;
+}
+
+.left7 {
+    float:left;
+    width:70%;
+}
+
+
+/* Pattern styles */
+
+
+.left-half {
+  float: left;
+  width: 50%;
+}
+.right-half {
+  float: right;
+  width: 50%;
+}
+
+.emphasized {
+  font-size: 1.2em;
+}
+
+.handwriting_v1 {
+  font-family: 'Just Another Hand', cursive;
+  color: #4d1434;
+  font-size: 1.0em;
+}
+
+.handwriting_v2 {
+  font-family: 'Just Another Hand', cursive;
+  color: #969fa7;
+  font-size: 1.0em;
+}
+
+.blue-outline {
+  padding: 10px;
+  color: #41541e;
+  background-color: #F1F1EF;
+  border: solid 3px #41541e;  
+  /*display: inline-block;*/
+}
+
+
+.card {
+  width: 98%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+.card-desc {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.card-note {
+  text-align: left;
+  padding: 10px 20px;
+}
+
+.card:hover {
+  border: 3px solid #41541e;
+}
+
+
+/*logo en portada*/
+
+.gdbar img {
+  width: 300px;
+  height: 300px;
+  margin: 4px 4px;
+}
+
+.gdbar {
+  width: 400px ;
+  height: 200px;
+}
+
+.fa{
+  font-size: 30px;
+}
+
+
+.mycontainer {
+  text-align: center;
+  padding: 10px 10px;
+  background-color: #E9E7DA;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.rmdnote {
+  font-size: 12px;
+  line-height: normal;  
+  padding: 10px 5px 1px 5px;
+  background: #f5f5f5;
+  color: #41541e;
+}
+
+.purple-outline {
+  padding: 20px;
+  color: #4d1434;
+  background-color: #F1F1EF;
+  border: solid 3px #4d1434;  
+  font-family: 'Just Another Hand', cursive;
+  font-size: 2.5em;
+  line-height: 1.5cm;
+  text-align:center;
+}
+
+
+/*logo en footer
+
+slides > slide:not(.nobackground):before {
+  width: 50px;
+  height:50px;
+  background-size: 150px 75px;
+}
+
+
+
+
+*/
+
+/* colores website
+
+# Primary
+primary = "#41541e"
+
+# Menu
+menu_primary = "#41541e"
+menu_text = "#F1F1EF"
+menu_text_active = "#C19434"
+menu_title = "#F1F1EF"
+
+# Backgrounds
+#background = "#F1F1EF"
+home_section_odd = "#F1F1EF"
+home_section_even = "#E9E7DA"
+
+
+*/
+
+
+/* Fonts website
+
+
+
+# Font families
+heading_font = "Oswald"
+body_font = "Encode Sans Semi Condensed"
+nav_font = "Encode Sans Semi Condensed"
+mono_font = "Roboto Condensed"
+
+*/
+
+
+/* Shiny
+
+body
+{
+    font-family:'Encode Sans Semi Condensed', sans-serif;
+    font-size:18px;
+    font-weight:100;
+}
+
+.navbar-default {
+    background-color: #C19434;
+    border: none;
+}
+h1 {
+  color: #41541e;
+  font-family: 'Oswald', sans-serif;
+}
+
+h2 {
+  color: #41541e;
+  font-family: 'Oswald', sans-serif;
+}
+
+h3 {
+  color: #41541e;
+  font-family: 'Encode Sans Semi Condensed', sans-serif;
+}
+
+blockquote {
+  margin: 0 0 0 0;
+  padding: 0.5px 21px;
+}
+
+.blockquote-note {
+  color: #777777;
+  background-color: #f6f3f3;
+  width: 90%;
+  margin: 0 auto;
+}
+
+body
+{
+    font-family:'Encode Sans Semi Condensed', sans-serif;
+    font-size:18px;
+    font-weight:100px;
+}
+
+
+.alert-note {
+  color: #777777;
+  background-color: #f6f3f3;
+  width: 90%;
+  margin: 0 auto;
+}
+
+div.tip, div.obj{
+  border: 2px #ff7400;
+  border-style: solid;
+  padding: 1em;
+  margin: 1em 0;
+  min-height: 120px;
+  color: #ff7400;
+  background-color: #fff8f2;
+}
+
+div.obj {
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+div.obj>p:first-child {
+  padding-top: 0;
+  margin-top: 0;
+  font-family: 'Open Sans';
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+div.rmdnote {
+  padding: 1em 1em 1em 4.5em;
+  margin-bottom: 10px;
+  background: #f5f5f5 5px center/3em no-repeat;
+}
+
+
+div.rmdnote {
+  background-image: url(../images/light-bulb.png);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+div.note {
+    padding: 1em;
+    margin: 1em 0;
+    padding-left: 100px;
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position: 15px center;
+    min-height: 120px;
+    color: #41541e;
+    background-color: #F1F1EF;
+    border: solid 3px #41541e;
+}
+div.note {
+  background-image: url("/images/Book_41541e.png");
+  font-size: 16px;
+}
+
+
+
+.gallery {
+  border: 1px solid #ccc;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+
+*/
+
+
+
+
+/*@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');*/
